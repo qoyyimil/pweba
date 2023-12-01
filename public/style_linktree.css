@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+}
+
+header {
+  width: 95%;
+  max-width: 600px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 12px;
+  margin-top: 10px;
+}
+
+.yimmi-share-button {
+  right: 18%;
+  margin: 5px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f4f4f4;
+  align-items: center;
+}
+
+.yimmi-share-button svg {
+  margin-right: 12px;
+  margin-left: 12px;
+  margin-top: 12px;
+}
+
+.yimmi-share-button :hover {
+  background-color: #e3e3e3;
+  opacity: 1.5;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.yimmi-container {
+  align-items: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.yimmi-profile {
+  border-radius: 50%;
+  width: 96px;
+  height: 96px;
+  
+}
+
+.yimmi-title {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  font-weight: 600;
+  font-size: 11px;
+  
+}
+
+.yimmi-verif {
+  margin: 4px;
+  display: flex;
+  object-fit: none;
+  object-position: initial;
+  filter: none;
+}
+
+.yimmi-subtitle {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 22px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.yimmi-link{
+  width: 310%;
+  height: 55px;
+  background-color: rgb(67, 230, 96);
+  border-radius: 15px;
+  margin-bottom: 16px;
+  color: rgb(30, 35, 48);
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  align-items: center;
+}
+
+.yimmi-link :hover {
+  transform: scale(1.1);
+  transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+}
+
+.yimmi-link-icon {
+  border-radius: 10px;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: 5px;
+}
+
+.yimmi-share-button-link {
+  right: 5px;
+  margin: 8px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.yimmi-share-button-link svg {
+  margin-right: 12px;
+  margin-left: 12px;
+  margin-top: 12px;
+}
+
+footer {
+  margin-top: 10px;
+  margin-bottom: 70px;
+}
+
+footer svg {
+  margin-top: 5px;
+  margin-bottom: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 20px;
+  width: auto;
+}
