@@ -1,28 +1,47 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Tutorial Membuat CRUD Pada Laravel - www.malasngoding.com</title>
-</head>
-<body>
+@extends('master2')
 
-	<h2><a href="https://www.malasngoding.com">www.malasngoding.com</a></h2>
-	<h3>Data Pegawai</h3>
+@section('title', 'Data Pegawai')
 
-	<a href="/pegawai"> Kembali</a>
+@section('konten')
+    <h3>Tambah Data Pegawai</h3>
 
-	<br/>
-	<br/>
+    <a href="/pegawai"> Kembali</a>
 
-	<form action="/pegawai/store" method="post">
-		{{ csrf_field() }}
-		Nama <input type="text" name="nama"> <br/>
-		Jabatan <input type="text" name="jabatan"> <br/>
-		Umur <input type="number" name="umur"> <br/>
-		Alamat <textarea name="alamat"></textarea> <br/>
-		<input type="submit" value="Simpan Data">
-	</form>
+    <br />
+    <br />
 
-
-
-</body>
-</html>
+    <form action="/pegawai/store" class="form-horizontal" method="post">
+        {{ csrf_field() }}
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="nama">Nama</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="nama" placeholder="Masukkan Nama" name="nama">
+            </div>
+        </div>
+        <div class="form-group">
+            {{-- field input jabatan --}}
+            <label class="control-label col-sm-2" for="jabatan">Jabatan:</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="jabatan" placeholder="Masukkan Jabatan" name="jabatan">
+            </div>
+        </div>
+        <div class="form-group">
+            {{-- field input umur --}}
+            <label class="control-label col-sm-2" for="umur">Umur:</label>
+            <div class="col-sm-10">
+                <input type="number" class="form-control" id="umur" placeholder="Masukkan Umur" name="umur">
+            </div>
+        </div>
+        <div class="form-group">
+            {{-- field input alamat --}}
+            <label class="control-label col-sm-2" for="alamat">Alamat:</label>
+            <div class="col-sm-10">
+                <textarea class="form-control" id="alamat" placeholder="Masukkan Alamat" name="alamat"></textarea>
+            </div>
+        </div>
+        <div class="col-sm-10">
+            <input class="btn btn-primary" type="submit" value="Simpan Data">
+        </div>
+        {{-- </div> --}}
+    </form>
+@endsection

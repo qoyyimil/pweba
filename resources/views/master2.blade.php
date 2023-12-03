@@ -13,7 +13,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
         <!-- Brand -->
         <a class="navbar-brand" href="#">5026221115 Qoyyimil Jamilah</a>
 
