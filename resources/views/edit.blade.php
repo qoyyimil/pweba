@@ -16,30 +16,30 @@
             <input type="hidden" name="id" value="{{ $p->pegawai_id }}"> <br />
             <div class="form-group">
                 {{-- field input nama --}}
-                <label class="control-label col-sm-2" for="nama">Nama</label>
+                <label class="control-label col-2" for="nama">Nama</label>
                 <div class="col-sm-10">
-                    <input class="form-control" type="text" required="required" name="nama" value="{{ $p->pegawai_nama }}">
+                    <input class="form-control col-md-10" type="text" required="required" name="nama" value="{{ $p->pegawai_nama }}">
                 </div>
             </div>
             <div class="form-group">
                 {{-- field input jabatan --}}
-                <label class="control-label col-sm-2" for="jabatan">Jabatan:</label>
+                <label class="control-label col-2" for="jabatan">Jabatan:</label>
                 <div class="col-sm-10">
-                    <input class="form-control" type="text" required="required" name="jabatan" value="{{ $p->pegawai_jabatan }}">
+                    <input class="form-control col-md-10" type="text" required="required" name="jabatan" value="{{ $p->pegawai_jabatan }}">
                 </div>
             </div>
             <div class="form-group">
                 {{-- field input umur --}}
-                <label class="control-label col-sm-2" for="umur">Umur:</label>
+                <label class="control-label col-2" for="umur">Umur:</label>
                 <div class="col-sm-10">
-                    <input class="form-control" type="number" required="required" name="umur" value="{{ $p->pegawai_umur }}">
+                    <input class="form-control col-md-10" type="number" required="required" name="umur" value="{{ $p->pegawai_umur }}">
                 </div>
             </div>
             <div class="form-group">
                 {{-- field input alamat --}}
-                <label class="control-label col-sm-2" for="alamat">Alamat:</label>
+                <label class="control-label col-2" for="alamat">Alamat:</label>
                 <div class="col-sm-10">
-                    <textarea class="form-control" required="required" name="alamat">{{ $p->pegawai_alamat }}</textarea>
+                    <textarea class="form-control col-md-10" required="required" name="alamat">{{ $p->pegawai_alamat }}</textarea>
                 </div>
             </div>
             <div class="col-sm-10">
