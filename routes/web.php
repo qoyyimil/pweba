@@ -94,3 +94,11 @@ Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus')
 Route::get('/pegawai/lihat/{id}','App\Http\Controllers\PegawaiController@viewPegawai');
 
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
+
+// Soal Latihan EAS
+Route::get('/nilaikuliah','App\Http\Controllers\NilaiKuliahController@index');
+Route::get('/nilaikuliah/tambahnilaikuliah','App\Http\Controllers\NilaiKuliahController@tambah');
+Route::post('/nilaikuliah/store','App\Http\Controllers\NilaiKuliahController@store');
+
+// Pra-EAS
+

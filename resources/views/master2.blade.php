@@ -20,10 +20,10 @@
         <!-- Links -->
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="#">UAS</a>
+                <a class="nav-link" href="/nilaikuliah">Nilai Kuliah</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Latihan</a>
+                <a class="nav-link" href="#">Kursi</a>
             </li>
 
             <!-- Dropdown -->
