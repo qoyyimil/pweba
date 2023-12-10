@@ -100,5 +100,18 @@ Route::get('/nilaikuliah','App\Http\Controllers\NilaiKuliahController@index');
 Route::get('/nilaikuliah/tambahnilaikuliah','App\Http\Controllers\NilaiKuliahController@tambah');
 Route::post('/nilaikuliah/store','App\Http\Controllers\NilaiKuliahController@store');
 
-// Pra-EAS
+Route::get('/barang','App\Http\Controllers\BarangController@index');
+Route::get('/barang/hapus/{id}','App\Http\Controllers\BarangController@hapus');
+Route::get('/barang/tambahbarang','App\Http\Controllers\BarangController@tambahbarang');
+Route::post('/barang/storebarang','App\Http\Controllers\BarangController@storebarang');
 
+// Pra-EAS
+Route::get('/kursi','App\Http\Controllers\KursiController@index');
+Route::get('/kursi/tambahkursi','App\Http\Controllers\KursiController@tambah');
+Route::post('/kursi/store','App\Http\Controllers\KursiController@store');
+Route::get('/kursi/editkursi/{id}','App\Http\Controllers\KursiController@edit');
+Route::post('/kursi/update','App\Http\Controllers\KursiController@update');
+Route::get('/kursi/hapus/{id}','App\Http\Controllers\KursiController@hapus');
+Route::get('/kursi/lihatkursi/{id}','App\Http\Controllers\KursiController@viewKursi');
+
+Route::get('/pegawai/cari','App\Http\Controllers\KursiController@cari');

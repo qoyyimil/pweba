@@ -14,21 +14,21 @@
         {{ csrf_field() }}
         <div class="form-group row">
             {{-- field input nrp --}}
-            <label class="control-label col-2" for="nama">NRP:</label>
+            <label class="control-label col-2" for="nrp">NRP:</label>
             <div class="col-md-10">
                 <input type="text" class="form-control" id="nrp" placeholder="Masukkan NRP" name="nrp">
             </div>
         </div>
         <div class="form-group row">
             {{-- field input nilai angka --}}
-            <label class="control-label col-2" for="jabatan">Nilai Angka:</label>
+            <label class="control-label col-2" for="nilaiangka">Nilai Angka:</label>
             <div class="col-md-10">
                 <input type="text" class="form-control" id="nilaiangka" placeholder="Masukkan Nilai" name="nilaiangka">
             </div>
         </div>
         <div class="form-group row">
             {{-- field input sks --}}
-            <label class="control-label col-2" for="umur">SKS:</label>
+            <label class="control-label col-2" for="sks">SKS:</label>
             <div class="col-md-10">
                 <input type="number" class="form-control" id="sks" placeholder="Masukkan SKS" name="sks">
             </div>

@@ -23,7 +23,7 @@
                 <a class="nav-link" href="/nilaikuliah">Nilai Kuliah</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Kursi</a>
+                <a class="nav-link" href="/kursi">Kursi</a>
             </li>
 
             <!-- Dropdown -->
@@ -33,7 +33,7 @@
                 </a>
                 <div class="dropdown-menu">
                     <a class="dropdown-item" href="/pegawai">Pegawai</a>
-                    <a class="dropdown-item" href="#">Link 2</a>
+                    <a class="dropdown-item" href="/barang">Keranjang Belanja</a>
                     <a class="dropdown-item" href="#">Link 3</a>
                 </div>
             </li>
