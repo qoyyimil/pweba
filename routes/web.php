@@ -114,4 +114,4 @@ Route::post('/kursi/update','App\Http\Controllers\KursiController@update');
 Route::get('/kursi/hapus/{id}','App\Http\Controllers\KursiController@hapus');
 Route::get('/kursi/lihatkursi/{id}','App\Http\Controllers\KursiController@viewKursi');
 
-Route::get('/pegawai/cari','App\Http\Controllers\KursiController@cari');
+Route::get('/kursi/cari','App\Http\Controllers\KursiController@cari');
