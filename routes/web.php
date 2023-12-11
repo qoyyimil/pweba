@@ -115,3 +115,9 @@ Route::get('/kursi/hapus/{id}','App\Http\Controllers\KursiController@hapus');
 Route::get('/kursi/lihatkursi/{id}','App\Http\Controllers\KursiController@viewKursi');
 
 Route::get('/kursi/cari','App\Http\Controllers\KursiController@cari');
+
+// EAS
+Route::get('/mahasiswa','App\Http\Controllers\MahasiswaController@index');
+Route::get('/mahasiswa/editmahasiswa/{id}','App\Http\Controllers\MahasiswaController@edit');
+Route::post('/mahasiswa/update','App\Http\Controllers\MahasiswaController@update');
+Route::get('/mahasiswa/lihatmahasiswa/{id}','App\Http\Controllers\MahasiswaController@viewMahasiswa');

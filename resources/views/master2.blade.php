@@ -25,6 +25,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="/kursi">Kursi</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/mahasiswa">Mahasiswa</a>
+            </li>
 
             <!-- Dropdown -->
             <li class="nav-item dropdown">
